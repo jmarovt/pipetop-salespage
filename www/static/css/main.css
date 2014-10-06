@@ -1,0 +1,135 @@
+/* BASE - Base Variable file along with starting point Mixins and Placeholders.
+========================================================================== */
+.container-fluid {
+  padding: 0px; }
+
+.row {
+  margin: 0;
+  padding: 0; }
+
+/* REST - ...
+========================================================================== */
+body {
+  font-family: "Proxima Nova";
+  text-align: center; }
+  body .test_class {
+    height: 300px;
+    background-color: #fff; }
+
+.navbar-inverse {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
+
+h1, h2 {
+  text-transform: capitalize; }
+
+h3 {
+  font-weight: 300; }
+
+h4 {
+  text-align: left;
+  margin: 20px 0px 15px 0px; }
+
+.cover {
+  background-color: #ddd;
+  padding-top: 200px;
+  padding-bottom: 200px; }
+
+.cover-secondary {
+  background-color: #ddd;
+  padding: 150px 0px 100px 0px; }
+
+.front-section {
+  padding: 80px 0px; }
+  .front-section h3 {
+    margin-bottom: 60px; }
+  .front-section p {
+    text-align: left; }
+  .front-section blockquote {
+    text-align: left; }
+
+.front-section-odd {
+  background-color: #f9f9f9; }
+
+.front-section-bottom {
+  background-color: #ddd; }
+
+.front-section-thin h2 {
+  margin-bottom: 40px; }
+.front-section-thin h3 {
+  margin-bottom: 20px; }
+
+.section-center p {
+  text-align: center; }
+
+ul {
+  text-align: left; }
+
+body > footer {
+  padding: 40px 0px;
+  background-color: #333;
+  color: #f9f9f9; }
+  body > footer h4 {
+    text-align: left; }
+  body > footer ul {
+    padding: 0px; }
+    body > footer ul li {
+      list-style-type: none; }
+
+.content-sidebar {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: left; }
+
+.nav-sidebar {
+  padding-top: 100px;
+  padding-bottom: 80px; }
+
+.main-point {
+  font-weight: bold; }
+
+.image-profile {
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+  border-radius: 50%;
+  margin: 0 auto; }
+
+.profile-jakob {
+  background-image: url(../images/profile_jakob.jpg); }
+
+.profile-rasmus {
+  background-image: url(../images/profile_rasmus.jpg); }
+
+.image-map-contact {
+  background-image: url(../images/map_contact_us.png);
+  width: 320px;
+  height: 320px;
+  background-size: 320px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-repeat: no-repeat; }
+
+.modal {
+  text-align: left; }
+  .modal .modal-dialog {
+    width: 400px; }
+
+.customer-cases-section .glyphicon {
+  color: #1C6E3D; }
+.customer-cases-section ul, .customer-cases-section ol {
+  padding-left: 0px; }
+.customer-cases-section .btn {
+  margin-top: 30px; }
+
+.btn-left {
+  text-align: left; }
+
+.highlight-section {
+  background-color: #f9f9f9;
+  padding: 20px 40px; }
+
+/*# sourceMappingURL=main.css.map */

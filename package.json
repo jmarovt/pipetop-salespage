@@ -1,0 +1,25 @@
+{
+  "name": "pipetop-salespage",
+  "version": "1.0.0",
+  "description": "Pipetop sales page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "Jakob Marovt",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "express": "*",
+    "ejs":  "*"
+  },
+  "engines": {
+    "node": ">= 0.4.1",
+    "npm": ">= 1.0.0"
+  }
+}
